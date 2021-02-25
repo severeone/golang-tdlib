@@ -1,6 +1,6 @@
 FROM severeone/golang:latest
 
-RUN apt-get update && apt-get upgrade && apt-get install -y \
+RUN apt-get update && apt-get upgrade -y && apt-get install -y \
     make \
     git \
     zlib1g-dev \
